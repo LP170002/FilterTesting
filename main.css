@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(64, 64, 64);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainclassname {
+  width: 100px;
+  height: 200px;
+  background-color: brown;
+  border: 1px solid purple;
+  margin-inline: 50px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter {
+  width: 33.3%;
+  height: 50px;
+  background-color: limegreen;
+  border: 1px solid orange;
+  cursor: pointer;
+  margin-bottom: 50px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hidden {
+  display: none;
+}
